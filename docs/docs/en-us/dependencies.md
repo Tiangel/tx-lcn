@@ -16,13 +16,13 @@
 * jsqlparser:1.3
 * h2database:1.4.197
 * hikari-cp:3.1.0
-* pagehelper:1.2.10 `TxManager`
-* mybatis.spring.boot:1.3.2 `TxManager`
+* pagehelper:1.2.10 `TM`
+* mybatis.spring.boot:1.3.2 `TM`
 * spring-cloud:Finchley.SR2 (optional)
 * netty:4.1.31.Final （optional）
 * dubbo:0.2.0 (optional)
 
 
-## Middleware
+## The Middlewares
 * Mariadb 10+ (MySQL5+)
 * Redis any

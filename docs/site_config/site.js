@@ -8,27 +8,32 @@ export default {
   'en-us': {
     pageMenu: [
       {
-        key: 'home', // 用作顶部菜单的选中
-        text: 'HOME',
+        key: 'Home', // 用作顶部菜单的选中
+        text: 'Home',
         link: '/en-us/index.html',
       },
       {
-        key: 'docs',
-        text: 'DOCS',
+        key: 'News',
+        text: 'News',
+        link: 'https://bbs.txlcn.org/viewtopic.php?id=42',
+      },
+      {
+        key: 'Docs',
+        text: 'Docs',
         link: '/en-us/docs/preface.html',
       },
       {
-        key: 'download',
-        text: 'DOWNLOAD',
+        key: 'Community',
+        text: 'Community',
+        link: 'https://bbs.txlcn.org/',
+      },
+      {
+        key: 'Download',
+        text: 'Download',
           link: 'https://github.com/codingapi/tx-lcn/releases',
           target:'_blank',
       },
-      {
-        key: 'community',
-        text: 'COMMUNITY',
-        link: 'https://bbs.txlcn.org/',
-        target:'_blank',
-      },
+
     ],
     disclaimer: {
         title: 'Vision',
@@ -75,9 +80,19 @@ export default {
         link: '/zh-cn/index.html',
       },
       {
+        key: '新闻',
+        text: '新闻',
+        link: 'https://bbs.txlcn.org/viewtopic.php?id=42',
+      },
+      {
         key: 'docs',
         text: '文档',
         link: '/zh-cn/docs/preface.html',
+      },
+      {
+        key: 'community',
+        text: '社区',
+        link: 'https://bbs.txlcn.org',
       },
       {
         key: '下载',
@@ -85,12 +100,7 @@ export default {
         link: 'https://github.com/codingapi/tx-lcn/releases',
         target:'_blank',
       },
-      {
-        key: 'community',
-        text: '社区',
-          link: 'https://bbs.txlcn.org',
-          target:'_blank',
-      },
+
     ],
     disclaimer: {
         title: '愿景',
