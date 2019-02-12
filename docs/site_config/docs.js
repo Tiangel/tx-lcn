@@ -106,10 +106,10 @@ export default {
                         title: 'Fix problem',
                         link: '/en-us/docs/debug.html',
                     },
-                    // {
-                    //     title: '性能测试报告',
-                    //     link: '/zh-cn/docs/test.html',
-                    // },
+                    {
+                        title: '性能测试报告',
+                        link: '/zh-cn/docs/test.html',
+                    },
                     {
                         title: 'Developers',
                         link: '/en-us/docs/developer.html',
@@ -230,10 +230,10 @@ export default {
                         title: '问题排查手册',
                         link: '/zh-cn/docs/debug.html',
                     },
-                    // {
-                    //     title: '性能测试报告',
-                    //     link: '/zh-cn/docs/test.html',
-                    // },
+                    {
+                        title: '性能测试报告',
+                        link: '/zh-cn/docs/test.html',
+                    },
                     {
                         title: '开发者',
                         link: '/zh-cn/docs/developer.html',
