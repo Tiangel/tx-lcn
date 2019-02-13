@@ -13,7 +13,7 @@ tx-lcn.ribbon.loadbalancer.dtx.enabled=true
 # tx-manager 的配置地址，多个用,分割。注意设置上的地址在启动的时候会检查并连接，连接不成功会启动失败。
 # tx-manager 下集群策略，当增加一个新的tx-manager后，tx-manager也会通知到其他的在线模块，然后tx-client会在连接上后面加入的模块。
 tx-lcn.client.manager-address=127.0.0.1:8070,127.0.0.1:8071
-# 该参数是分布式事务框架存储的业务切面信息。采用的是h2数据库。该参数默认的值为{user.dir}/.txlcn/{application.name}-{application.port}
+# 该参数是分布式事务框架存储的业务切面信息。采用的是h2数据库。绝对路径。该参数默认的值为{user.dir}/.txlcn/{application.name}-{application.port}
 tx-lcn.aspect.log.file-path=logs/.txlcn/demo-8080
 # 调用链长度等级，默认值为3.标识调用连长度为3，该参数是用于识别分布式事务的最大通讯时间。
 tx-lcn.client.chain-level=3
