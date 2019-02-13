@@ -113,12 +113,12 @@ export default {
             ],
         },
         start: {
-            title: 'Quick Start',
-            desc: <p><br/> 简单加几个注解在协作的微服务上，即可享受TXLCN带来的好处！ <br/> <br/></p>,
+            title: 'Get started!',
+            desc: <p><br/> Add LCN annotations to your micro services, and have tea the rest of the time. <br/> <br/></p>,
             img: '/img/quick_start.png',
             button: {
-                text: 'Let\'s go!',
-                link: '/zh-cn/docs/start.html',
+                text: 'TRY IT NOW',
+                link: '/en-us/docs/start.html',
             },
         },
         users: {
