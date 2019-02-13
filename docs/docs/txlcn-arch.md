@@ -24,5 +24,5 @@
 #### TX-LCN解决方案的开源实现？
 [https://github.com/codingapi/tx-lcn](https://github.com/codingapi/tx-lcn)
 
-
-> 可以参考：[https://bbs.txlcn.org/viewtopic.php?id=31](https://bbs.txlcn.org/viewtopic.php?id=31)
+#### 参考
+[https://bbs.txlcn.org/viewtopic.php?id=31](https://bbs.txlcn.org/viewtopic.php?id=31)
