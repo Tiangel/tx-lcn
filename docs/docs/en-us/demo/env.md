@@ -3,7 +3,7 @@
 ## 步骤引导
 
 1. 准备依赖环境服务  
-    JDK1.8+,Mysql5.6+,Redis3.2+,Git,Maven
+    JDK1.8+,Mysql5.6+,Redis3.2+,Consul(SpringCloud),ZooKeeper(Dubbo),Git,Maven
 2. 初始化数据
     见下方说明
 3. 启动TxManager(TM)  
