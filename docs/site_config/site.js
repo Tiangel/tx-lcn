@@ -40,19 +40,23 @@ export default {
         content: 'We will devote ourselves to creating a fast, efficient and concurrent distributed transaction solution.',
     },
     documentation: {
-      title: 'Documentation',
+      title: 'Navigation',
       list: [
         {
-          text: 'Overview',
-          link: '/en-us/docs/background.html',
+          text: 'TX-LCN Solution',
+          link: '/zh-cn/docs/txlcn-arch.html',
         },
         {
-          text: 'Quick start',
-          link: '/en-us/docs/start.html',
+          text: 'Get Started',
+          link: '/zh-cn/docs/start.html',
         },
         {
-          text: 'Developer guide',
-          link: '/en-us/docs/demo/env.html',
+          text: 'Develop Plan',
+          link: '/zh-cn/docs/txlcn-mod.html',
+        },
+        {
+          text: 'Report Bug',
+          link: 'https://bbs.txlcn.org/viewforum.php?id=8',
         },
       ],
     },
@@ -107,19 +111,23 @@ export default {
         content: '我们将致力于打造一个快捷、高效、兼任性强的分布式事务解决方案',
     },
     documentation: {
-      title: '文档',
+      title: '导航',
       list: [
         {
-          text: '概览',
-          link: '/zh-cn/docs/background.html',
+          text: 'TX-LCN解决方案',
+          link: '/zh-cn/docs/txlcn-arch.html',
         },
         {
-          text: '快速开始',
+          text: '快速上手',
           link: '/zh-cn/docs/start.html',
         },
         {
-          text: '开发者指南',
-          link: '/zh-cn/docs/demo/env.html',
+          text: '开发计划',
+          link: '/zh-cn/docs/txlcn-mod.html',
+        },
+        {
+          text: '报告Bug',
+          link: 'https://bbs.txlcn.org/viewforum.php?id=8',
         },
       ],
     },

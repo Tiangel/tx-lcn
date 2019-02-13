@@ -55,7 +55,7 @@ public class DemoServiceImpl implements DemoService {
     }
 
     @Override
-    @TxcTransaction
+    @LcnTransaction
     public String execute(String value) {
         /*
          * 注意 5.0.0 请用 DTXLocal 类
@@ -141,7 +141,7 @@ public class DemoServiceImpl implements DemoService {
     }
 
     @Override
-    @TxcTransaction(propagation = DTXPropagation.SUPPORTS)
+    @TccTransaction(propagation = DTXPropagation.SUPPORTS)
     @Transactional
     public String rpc(String value) {
         /*
