@@ -7,10 +7,18 @@
 
 #### TX-LCN是怎样解决这个问题的？
 一次分布式事务下，各个微服务的本地事务注册到一个事务管理服务中，在没有发生失败的本地事务情况下，统一做提交事务，有失败的情况，对所有事务做回滚。
+由事务管理服务器做各个本地事务的协调工作。
 
 #### TX-LCN这样解决问题为什么可行？
-解决方案原理图如下：
+* 解决方案原理图如下：
+
 ![TC Arch](https://raw.githubusercontent.com/codingapi/tx-lcn/docs/docs/img/tc.png)
-TC Logic
+
+> TC 原理图
+
 ![TM Arch](https://raw.githubusercontent.com/codingapi/tx-lcn/docs/docs/img/tm.png)
-TM Logic
+
+> TM 原理图
+
+* 简要说明
+各个协作的微服务根据TC原理图的要求实现对其本地事务的注册，再根据TM原理图生产出TM服务器中间件，负责对注册的各个本地事务的保存与协调。
