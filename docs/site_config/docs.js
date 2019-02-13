@@ -103,12 +103,12 @@ export default {
                         link: '/en-us/docs/manageradmin.html',
                     },
                     {
-                        title: 'Fix problem',
+                        title: 'When troubles',
                         link: '/en-us/docs/debug.html',
                     },
                     {
-                        title: '性能测试报告',
-                        link: '/zh-cn/docs/test.html',
+                        title: 'Test report',
+                        link: '/en-us/docs/test.html',
                     },
                     {
                         title: 'Developers',
@@ -121,7 +121,7 @@ export default {
                 ],
             },
         ],
-        barText: 'Docs',
+        barText: 'Documents',
     },
     'zh-cn': {
         sidemenu: [
