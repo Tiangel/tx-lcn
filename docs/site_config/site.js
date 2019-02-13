@@ -18,14 +18,14 @@ export default {
         link: 'https://bbs.txlcn.org/viewtopic.php?id=42',
       },
       {
+        key: 'Forum',
+        text: 'Forum',
+        link: 'https://bbs.txlcn.org/',
+      },
+      {
         key: 'Docs',
         text: 'Docs',
         link: '/en-us/docs/preface.html',
-      },
-      {
-        key: 'Community',
-        text: 'Community',
-        link: 'https://bbs.txlcn.org/',
       },
       {
         key: 'Download',
@@ -89,14 +89,14 @@ export default {
         link: 'https://bbs.txlcn.org/viewtopic.php?id=42',
       },
       {
-        key: 'docs',
-        text: '文档',
-        link: '/zh-cn/docs/preface.html',
-      },
-      {
         key: 'community',
         text: '社区',
         link: 'https://bbs.txlcn.org',
+      },
+      {
+        key: 'docs',
+        text: '文档',
+        link: '/zh-cn/docs/preface.html',
       },
       {
         key: '下载',
