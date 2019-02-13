@@ -10,15 +10,12 @@
 由事务管理服务器做各个本地事务的协调工作。
 
 #### TX-LCN这样解决问题为什么可行？
-* 解决方案原理图如下：
-
+> TC 原理图
 ![TC Arch](https://raw.githubusercontent.com/codingapi/tx-lcn/docs/docs/img/tc.png)
 
-> TC 原理图
-
+> TM 原理图
 ![TM Arch](https://raw.githubusercontent.com/codingapi/tx-lcn/docs/docs/img/tm.png)
 
-> TM 原理图
 
-* 简要说明
+* 简要说明  
 各个协作的微服务根据TC原理图的要求实现对其本地事务的注册，再根据TM原理图生产出TM服务器中间件，负责对注册的各个本地事务的保存与协调。
