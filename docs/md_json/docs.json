@@ -114,6 +114,16 @@
       "filename": "test.md",
       "link": "/en-us/docs/test.html",
       "meta": {}
+    },
+    {
+      "filename": "txlcn-arch.md",
+      "link": "/en-us/docs/txlcn-arch.html",
+      "meta": {}
+    },
+    {
+      "filename": "txlcn-mod.md",
+      "link": "/en-us/docs/txlcn-mod.html",
+      "meta": {}
     }
   ],
   "zh-cn": [
@@ -230,6 +240,16 @@
     {
       "filename": "test.md",
       "link": "/zh-cn/docs/test.html",
+      "meta": {}
+    },
+    {
+      "filename": "txlcn-arch.md",
+      "link": "/zh-cn/docs/txlcn-arch.html",
+      "meta": {}
+    },
+    {
+      "filename": "txlcn-mod.md",
+      "link": "/zh-cn/docs/txlcn-mod.html",
       "meta": {}
     }
   ]
